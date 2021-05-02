@@ -1,2 +1,7 @@
 # crypto_listing
-List of all cryptos with their details and description
+New project
+
+-- It is a personal project, the objective is to create a search engine containing all the cryptocurrencies, their description, objective, date of creation, founders and any other details
+-- I create it in order to mate easier the access to the informations in as many languages as possible
+-- Let me know if you want to collaborate and make kryptos information accessible for everyone
+
