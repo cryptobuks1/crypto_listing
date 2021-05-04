@@ -44,15 +44,18 @@ if(isset($_POST['crypto_txt'])){
     <title>info</title>
 </head>
 <body>
-    <div class="contet">
-        <?php 
-        if(isset($crypto_name)){echo $crypto_name."<br><br>";}
-        if(isset($crypto_token)){echo $crypto_token."<br><br>";}
-        if(isset($crypto_description)){echo $crypto_description."<br><br>";}
-        ?>
+    <div class="container center">
+        <div class="card">
+            <?php 
+            if(isset($crypto_name)){echo "<h2>".ucfirst($crypto_name)."</h2>";}
+            if(isset($crypto_token)){echo "<h3>".strtoupper($crypto_token)."</h3>";}
+            if(isset($crypto_description)){echo "<p>".ucfirst($crypto_description)."<p>";}
+            ?>
 
-        <a href="index.php">Go back</a>
+            <a href="search.php">&#8592; Go back</a>
+        </div>
     </div>
+
     
     <script src="https://kit.fontawesome.com/62d109a32e.js" crossorigin="anonymous"></script>
 </body>

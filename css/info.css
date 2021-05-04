@@ -1,0 +1,36 @@
+.container{
+  width: 40%;
+  height: 100%;  
+  display: -webkit-box;  
+  display: -ms-flexbox;  
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(169, 169, 169, 0.507);
+  padding: 30px;
+}
+
+.center{
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2, h3{
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
+a{
+  font-size: 20px;
+}
+
+
