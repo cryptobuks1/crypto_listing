@@ -15,9 +15,9 @@ session_start();
 
 <form action="info.php" method="post">
     <div class="wrap">
-        <h1>Find yout crypto</h1>
+        <h1>Quelle crypto cherchez-vous?</h1>
         <div class="search">
-                <input type="text" class="searchTerm" name="crypto_txt" placeholder="Which crypto are you looking for?" required>
+                <input type="text" class="searchTerm" name="crypto_txt" placeholder="Tapez le nom du token ou de votre cryptomonnaie ici..." required>
                 <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
         </div>
     </div>

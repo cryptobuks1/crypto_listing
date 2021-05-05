@@ -9,8 +9,6 @@
   
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(169, 169, 169, 0.507);
-  padding: 30px;
 }
 
 .center{
@@ -31,6 +29,18 @@ p{
 }
 a{
   font-size: 20px;
+}
+
+.container .card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: rgba(169, 169, 169, 0.507);
+  padding: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 

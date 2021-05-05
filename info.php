@@ -52,7 +52,7 @@ if(isset($_POST['crypto_txt'])){
             if(isset($crypto_description)){echo "<p>".ucfirst($crypto_description)."<p>";}
             ?>
 
-            <a href="search.php">&#8592; Go back</a>
+            <a href="search.php">&#8592; Revenir en arrière</a>
         </div>
     </div>
 
