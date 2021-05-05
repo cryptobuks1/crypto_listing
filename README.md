@@ -5,3 +5,5 @@ New project
 -- I create it in order to make easier the access to the informations in as many languages as possible
 -- Let me know if you want to collaborate and make krypto information accessible for everyone
 
+** Please, before to use be sure to load the database crypto.sql to your phpmyadmin and be sure that the database parameters matches with your sql database
+
